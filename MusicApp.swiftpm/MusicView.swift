@@ -7,7 +7,6 @@ struct Song: Identifiable, Hashable, Codable {
     var image: String
 }
 
-
 let songs = [
     Song(name: "Bad Guy", artist: "Billie Eilish", image: "music1"),
     Song(name: "Blinding Lights", artist: "The Weeknd", image: "music2"),
@@ -94,8 +93,6 @@ struct MusicView: View {
         }
     }
 }
-
-
 
 //
 //
